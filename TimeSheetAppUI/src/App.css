@@ -1,0 +1,122 @@
+@import "~antd/dist/antd.css";
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.client-logout {
+  margin-left: 95%;
+}
+
+.content-header {
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  padding: 0px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.rsrit-img {
+  margin-left: 100px;
+}
+.login-form {
+  margin-top: 100px;
+  margin-left: 37%;
+  width: 400px;
+}
+
+.remember-me {
+  margin-left: 150px;
+}
+
+.sign-up {
+  margin-left: 150px;
+}
+
+.login-form-forgot {
+  float: right;
+}
+
+.login-form-button {
+  width: 100%;
+}
+
+.buttons {
+  margin: 5px;
+  float: right;
+}
+
+.displayBlock {
+  display: block;
+}
+.displayInline {
+  display: inline;
+}
+.content {
+  margin: 100px 40px 40px 40px;
+  position: sticky;
+}
+
+.viewContent {
+  margin: 40px 40px 40px 40px;
+  position: sticky;
+}
+
+.calenderForm {
+  margin: 40px;
+}
+.tabledataHandW {
+  height: 40px;
+  width: 90px;
+  margin: 5px;
+}
+
+.cardView {
+  width: 70%;
+  height: 30%;
+  border-radius: 8px;
+  margin: 24px;
+  box-sizing: 5px 8px 24px 5px rgba(208, 216, 243, 0.6);
+  box-shadow: 0 0 3px rgb(156, 152, 152);
+}
+
+.iconSize {
+  height: 30%;
+  width: 30%;
+}
+.moveImgRight {
+  margin-left: 7px;
+}
+
+.sizeOfIcon {
+  height: 50%;
+  width: 50%;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

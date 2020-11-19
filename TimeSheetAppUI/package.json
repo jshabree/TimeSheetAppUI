@@ -1,0 +1,63 @@
+{
+  "name": "emp",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "npm": "6.11.2",
+    "node": "10.13.0"
+  },
+  "dependencies": {
+    "@ant-design/compatible": "^1.0.2",
+    "@ant-design/icons": "^4.2.1",
+    "antd": "^4.0.0",
+    "axios": "^0.19.2",
+    "dropbox": "^5.2.0",
+    "event-stream": "^4.0.1",
+    "gh-pages": "^2.0.1",
+    "i18next": "^19.5.1",
+    "moment": "^2.22.2",
+    "node-sass": "^4.14.1",
+    "proptypes": "^1.1.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-fontawesome": "^1.7.1",
+    "react-i18next": "^8.0.0",
+    "react-icons": "^3.10.0",
+    "react-moment": "^0.8.4",
+    "react-redux": "^7.2.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-widgets": "^4.4.6",
+    "redux": "^4.0.1",
+    "redux-form": "^7.4.2",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^0.16.2",
+    "reqwest": "^2.0.5",
+    "save": "^2.3.2",
+    "serve": "^11.3.2",
+    "validator": "^10.8.0"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "typescript": "^3.2.2"
+  }
+}
